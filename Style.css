@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color:#e91414;
+    color: rgb(196, 226, 27);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 60px;
+    font-size: 30px;
+}
+.escola-imagem{
+    width: 50%;
+}
+
+#escola{
+    background-image: linear-gradient(#1b62d4,#16CFF8);
+    color:rgb(211, 28, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 30%;
+}
+.escola-titulo{
+    padding: 30px 10;
+}
+#estudante{
+    padding: 24px 0;
+}
+.estudante-imagem{
+    width: 200px;
+}
+
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+footer {
+    background-color: #a0ca08; /* Cor do fundo do rodapé */
+    color: #0fe92c; /* Cor do texto do rodapé */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.rodape-conteudo {
+    max-width: 1200px; /* Limita a largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo no rodapé */
+}
+
+.redes-sociais {
+    margin-top: 10px; /* Espaçamento acima dos ícones das redes sociais */
+}
+
+.icone-rede-social {
+    width: 30px; /* Tamanho dos ícones das redes sociais */
+    margin: 0 10px; /* Espaçamento entre os ícones */
+}
